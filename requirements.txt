@@ -1,0 +1,12 @@
+transformers
+torch
+accelerate
+evaluate
+matplotlib
+PIL
+csv
+nltk
+datasets
+numpy
+torchvision
+tqdm
