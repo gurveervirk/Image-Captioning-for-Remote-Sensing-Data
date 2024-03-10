@@ -3,12 +3,12 @@
 ## Approach
 
 - Found and compared models on HuggingFace and selected 2 models for finetuning:
-    - nlpconnect/vit-gpt2-image-captioning
-    - Salesforce/blip-image-captioning-base
+    - [`nlpconnect/vit-gpt2-image-captioning`](https://huggingface.co/nlpconnect/vit-gpt2-image-captioning)
+    - [`Salesforce/blip-image-captioning-base`](https://huggingface.co/Salesforce/blip-image-captioning-base)
 
 - Finetuned both on the dataset (splits used for this were "train" and "valid" for training and evaluation purposes)
 - Tested them on the "test" split and further tuned the training parameters
-- Tested BLEU score of these models:
+- Tested BLEU score for these models ("valid" split used):
     - Base models:
         - nlpconnect/vit-gpt2-image-captioning: 0.58
         - Salesforce/blip-image-captioning-base: 0.51
@@ -29,3 +29,7 @@
 - Model Links:
     - [`ViT finetuned`](https://www.kaggle.com/datasets/gurveersinghvirk/clip-gpt2-rsicd-finetuned-5-epochs)
     - [`BLIP finetuned`](https://huggingface.co/Gurveer05/blip-image-captioning-base-rscid-finetuned/)
+
+- Kaggle Notebook Links:
+    - [`Training`](https://www.kaggle.com/code/gurveersinghvirk/trinit-hackathon/)
+    - [`Testing`](https://www.kaggle.com/code/gurveersinghvirk/trinit-hackathon-testing/)
